@@ -1,0 +1,79 @@
+
+
+.degradado{
+    background: rgb(0, 153, 255);
+    background: linear-gradient(180deg, rgba(0, 115, 255, 0.424) 0%, rgba(255,250,253,1) 50%, rgba(255,20,20,0.8155637254901961) 100%);
+}
+
+.hero{
+    background-image: url(../assets/capitolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: .7rem .7rem 0rem 0rem;
+  }
+
+th{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.naver{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}	
+.bIzq{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.divLupa{
+    display: flex;
+       flex-wrap: wrap;
+}
+
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    flex: 75%
+    
+}
+.naver img{
+    height: 4rem;
+    margin-right: 2rem;
+    background-image: url(../assets/band.png);
+    background-size: cover;
+   /*background: rgb(0,115,255);
+background: radial-gradient(circle, rgba(0,115,255,0.5662640056022409) 0%, rgba(255,250,253,1) 50%, rgba(255,20,20,0.8155637254901961) 100%);*/
+    border: solid 3px rgba(0, 0, 0, 0.397);
+    border-radius: 10%;
+   
+}
+
+.lupa{
+    display: flex;
+    flex: 25%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+.lupa img{
+    
+    height: 15rem;
+}
+
+
+.read{
+    background-color: rgba(158, 236, 255, 0.137);
+}
+
+.active{
+    background-color: #b3b2b2b6 ;
+    border-radius: .5rem;
+       
+}
+
